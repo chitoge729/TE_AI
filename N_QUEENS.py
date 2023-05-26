@@ -49,7 +49,7 @@ def solve_n_queens(n):
     backtrack(0)
     return solutions
                 
-n = 4
+n = int(input("Enter the number of queens(more than 3): "))
 solution = solve_n_queens(n)
 for solution in solution:
     for row in solution:
